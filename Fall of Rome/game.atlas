@@ -1,0 +1,90 @@
+
+game.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/Western Roman Empire
+  rotate: false
+  xy: 1248, 404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Auxilia Palatina
+  rotate: false
+  xy: 935, 32
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Comitatenses
+  rotate: false
+  xy: 1248, 251
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Exculcatores
+  rotate: false
+  xy: 832, 7
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Foederati
+  rotate: false
+  xy: 1248, 315
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Limitanei
+  rotate: false
+  xy: 1356, 423
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Magister Militum
+  rotate: false
+  xy: 1459, 439
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/comes-italiae-notitia-dignitatum-western-roman-empire-vir-spectabilis-png-favpng-R7w8Uzjexx3gmE7T2At515r1b
+  rotate: false
+  xy: 4, 4
+  size: 820, 500
+  orig: 820, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/Auxilia Palatina
+  rotate: false
+  xy: 832, 304
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Comitatenses
+  rotate: false
+  xy: 832, 96
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Exculcatores
+  rotate: false
+  xy: 1040, 304
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Foederati
+  rotate: false
+  xy: 1040, 96
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1

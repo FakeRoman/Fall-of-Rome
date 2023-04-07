@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Western Roman Empire",
+    "leaderName": "Flavius Majorianus",
+    "style": "Mediterranean",
+    "adjective": [
+      "Roman"
+    ],
+    "outerColor": [
+      238,
+      17,
+      17
+    ],
+    "innerColor": [
+      255,
+      215,
+      0
+    ],
+    "spyNames": [
+      "Flavius",
+      "Regula",
+      "Servius",
+      "Lucia",
+      "Cornelius",
+      "Licina",
+      "Canus",
+      "Serpens",
+      "Agrippa",
+      "Brutus"
+    ],
+    "unitNames": [
+      "Legio I Flavia Gallicana Constantia",
+      "Legio II Britannica",
+      "Legio III Flavia Salutis",
+      "Legio IV Italica",
+      "Legio V Iovia",
+      "Legio VI Herculia",
+      "Legio XII Victrix",
+      "Legio VI Victrix",
+      "Legio VIII Augusta"
+    ],
+    "startBias": [
+      "Avoid [Tundra]",
+      "Avoid [Desert]"
+    ],
+    "preferredVictoryType": "Scientific",
+    "favoredReligion": "Christianity",
+    "startIntroPart1": "The blessings of the gods be upon you, Augustus Majorianus, emperor of Rome and all her holdings (or what it remains of it). Your empire was the greatest and longest lived of all in Western civilization. And your people single-handedly shaped its culture, law, art, and warfare like none other, before or since. Through years of glorious conquest, Rome came to dominate all the lands of the Mediterranean from Spain in the west to Syria in the east. And her dominion would eventually expand to cover much of England and northern Germany. Roman art and architecture still awe and inspire the world. And she remains the envy of all lesser civilizations who have followed.",
+    "startIntroPart2": "Time hasnt been on the side of Western Rome, decaying worth of our coin, Barbarian invasions, Civil Wars and an invasion of Eastern Rome has left a huge scar in our society and army however our army although depleted is still a formidable force worthy of the Rome of old however we lack the manpower to recruit new men into our Comitatensis units but some Barbarians roaming on our border might be willing to join us as Foederati for our armies, may you lead us to glory again, oh Augustus Majorianus and may our lord not led you Empire fall to treason from within",
+    "declaringWar": "My treasury contains little and my soldiers are getting impatient... (sigh) ...therefore you must die.",
+    "attacked": "So brave, yet so stupid! If only you had a brain similar to your courage.",
+    "defeated": "God have deprived Rome of his favour. We have been defeated.",
+    "introduction": "I greet you. I am Majorian, Imperator of Western Rome. If you are a friend of Rome, you are welcome.",
+    "neutralHello": "Hail.",
+    "hateHello": "What do you want?",
+    "tradeRequest": "I offer this, for your consideration.",
+    "neutralLetsHearIt": "Yeah, I hear your offer.",
+    "hateLetsHearIt": [
+      "Diplomatic Guests are always welcomed...even if they are a Barbaric Civilization"
+    ],
+    "neutralNo": [
+      "No no.",
+      "Thank you, but no."
+    ],
+    "neutralYes": [
+      "Thank you very much, goodbye.",
+      "This is what I wanted!..."
+    ],
+    "hateNo": [
+      "Neither Rome nor the Romans will take this offer in consideration"
+    ],
+    "hateYes": [
+      "And so our business is concluded...now leave before the Palace stenches like filth"
+    ],
+    "uniqueName": "Remains of a great Empire",
+    "uniques": [
+      "When conquering an encampment, earn [15] Gold and recruit a Barbarian unit <with [70]% chance>",
+      "[-45]% Production when constructing [{Military} {Land}] units [in all cities]"
+      "Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)",
+      "Unhappiness from number of Cities doubled",
+      "[-50]% maintenance on road & railroads",
+    ],
+    "cities": [
+      "Rome",
+      "Antium",
+      "Cumae",
+      "Neapolis",
+      "Ravenna",
+      "Arretium",
+      "Mediolanum",
+      "Arpinum",
+      "Circei",
+      "Setia",
+      "Satricum",
+      "Ardea",
+      "Ostia",
+      "Velitrae",
+      "Viroconium",
+      "Tarentum",
+      "Brundisium",
+      "Caesaraugusta",
+      "Caesarea",
+      "Palmyra",
+      "Signia",
+      "Aquileia",
+      "Clusium",
+      "Sutrium",
+      "Cremona",
+      "Placentia",
+      "Hispalis",
+      "Artaxata",
+      "Aurelianorum",
+      "Nicopolis",
+      "Agrippina",
+      "Verona",
+      "Corfinium",
+      "Treverii",
+      "Sirmium",
+      "Augustadorum",
+      "Curia",
+      "Interrama",
+      "Adria"
+    ]
+  }
+]
