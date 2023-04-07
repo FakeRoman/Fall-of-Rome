@@ -1,116 +1,163 @@
 [
-	{
-		"name": "Comitatenses",
-		"unitType": "Sword",
-		"uniqueTo": "Western Roman Empire",
-		"replaces": "Swordsman",
-		"movement": 3,
-		"strength": 25,
-		"cost": 95,
-		"requiredTech": "Iron Working",
-		"requiredResource": "Iron",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Gunpowder",
-		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
- 	        "promotions": ["Cover I"],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Ballistarius",
-		"unitType": "Archery",
-		"replaces": "Crossbowman",
-		"uniqueTo": "Western Roman Empire",
-		"movement": 3,
-		"strength": 15,
-		"rangedStrength": 22,
-		"cost": 55,
-		"requiredTech": "Machinery",
-		"upgradesTo": "Rifleman",
-		"uniques": ["Can build [Land] improvements on tiles"],
-		"attackSound": "arrow"
-	},
-  	{
-		"name": "Exculcatores",
-		"unitType": "Archery",
-		"replaces": "Archer",
-		"uniqueTo": "Western Roman Empire",
-		"movement": 3,
-		"strength": 9,
-		"rangedStrength": 13,
-		"cost": 40,
-		"requiredTech": "Archery",
-		"upgradesTo": "Ballistarius",
-		"uniques": ["Can build [Land] improvements on tiles"],
-		"attackSound": "arrow"
-	},
-    	{
-		"name": "Exploratores",
-		"unitType": "Mounted",
-		"replaces": "Scout",
-		"uniqueTo": "Western Roman Empire",
-		"movement": 4,
-		"strength": 9,
-		"rangedStrength": 13,
-		"cost": 40,
-        "promotions": ["Ignore terrain cost","Woodsman"],
-		"attackSound": "horse"
-	},
-    	{
-		"name": "Magister Militum",
-		"unitType": "Mounted",
-		"replaces": "Great General",
-		"uniqueTo": "Western Roman Empire",
-		"movement": 3,
-		"strength": 20,
-		"rangedStrength": 4,
-        "promotions": ["Ignore terrain cost","Woodsman"],
-        "uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "[+40]% Strength bonus for [Military] units within [2] tiles",
-            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-            "Can move after attacking",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"],
-		"attackSound": "horse"},
-	{
-		"name": "Foederati",
-		"unitType": "Sword",
-		"replaces": "Brute",
-		"uniqueTo": "Western Roman Empire",
-		"movement": 2,
-		"strength": 18,
-		"cost": 35,
-		"requiredTech": "Currency",
-		"obsoleteTech": "Civil Service",
-		"promotions": ["Woodsman"],
-		"upgradesTo": "Pikeman",
-		"uniques": ["[+75]% Strength <vs [Mounted] units>"],
-		"attackSound": "metalhit"
-	},
-  	{
-		"name": "Auxilia Palatina",
-		"unitType": "Sword",
-		"uniqueTo": "Western Roman Empire",
-		"movement": 2,
-		"strength": 30,
-		"cost": 125,
-		"requiredTech": "Civil Service",
-		"requiredResource": "Iron",
-		"uniques": ["[+125]% Strength <vs [Mounted] units>"],
- 	        "promotions": ["Cover I"],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Limitanei",
-		"unitType": "Sword",
-		"replaces": "Spearman",
-		"uniqueTo": "Western Roman Empire",
-		"movement": 2,
-		"strength": 14,
-		"cost": 35,
-		"requiredTech": "Bronze Working",
-		"uniques": ["Can build [Fort] improvements on tiles","[+50]% Strength <vs [Mounted] units>"],
- 	    "promotions": ["Cover I"],
-      	"upgradesTo": "Auxilia Palatina",
-		"attackSound": "metalhit"
-	}
+  {
+    "name": "Comitatenses",
+    "unitType": "Sword",
+    "uniqueTo": "Western Roman Empire",
+    "replaces": "Swordsman",
+    "movement": 3,
+    "strength": 22,
+    "cost": 95,
+    "requiredTech": "Iron Working",
+    "requiredResource": "Iron",
+    "upgradesTo": "Longswordsman",
+    "obsoleteTech": "Gunpowder",
+    "uniques": [
+      "Can build [Road] improvements on tiles",
+      "Can build [Fort] improvements on tiles"
+    ],
+    "promotions": [
+      "Cover I"
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Ballistarius",
+    "unitType": "Archery",
+    "replaces": "Crossbowman",
+    "uniqueTo": "Western Roman Empire",
+    "movement": 3,
+    "strength": 15,
+    "rangedStrength": 22,
+    "cost": 55,
+    "requiredTech": "Machinery",
+    "upgradesTo": "Rifleman",
+    "uniques": [
+      "May withdraw before melee ([45]%)"
+    ],
+    "attackSound": "arrow"
+  },
+  {
+    "name": "Exculcatores",
+    "unitType": "Archery",
+    "replaces": "Archer",
+    "uniqueTo": "Western Roman Empire",
+    "movement": 3,
+    "strength": 9,
+    "rangedStrength": 9,
+    "cost": 40,
+    "requiredTech": "Archery",
+    "upgradesTo": "Ballistarius",
+    "uniques": ["May withdraw before melee ([65]%)"],
+    "attackSound": "arrow"
+  },
+  {
+    "name": "Sagittarii",
+    "unitType": "Archery",
+    "replaces": "Composite Bowman",
+    "uniqueTo": "Western Roman Empire",
+    "movement": 3,
+    "strength": 12,
+    "rangedStrength": 14,
+    "cost": 70,
+    "requiredTech": "Construction",
+    "upgradesTo": "Ballistarius",
+    "promotions": [
+      "Ignore terrain cost",
+      "Woodsman"
+    ],
+    "uniques": ["May withdraw before melee ([55]%)"],
+    "attackSound": "arrow"
+  },
+  {
+    "name": "Exploratores",
+    "unitType": "Mounted",
+    "replaces": "Scout",
+    "uniqueTo": "Western Roman Empire",
+    "movement": 4,
+    "strength": 9,
+    "cost": 70,
+    "promotions": [
+      "Ignore terrain cost",
+      "Woodsman"
+    ],
+    "attackSound": "horse"
+  },
+  {
+    "name": "Magister Militum",
+    "unitType": "Mounted",
+    "replaces": "Great General",
+    "uniqueTo": "Western Roman Empire",
+    "movement": 3,
+    "strength": 20,
+    "promotions": [
+      "Ignore terrain cost",
+      "Woodsman"
+    ],
+    "uniques": [
+      "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+      "[+40]% Strength bonus for [Military] units within [2] tiles",
+      "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+      "Can move after attacking",
+      "Great Person - [War]",
+      "Unbuildable",
+      "Uncapturable"
+    ],
+    "attackSound": "horse"
+  },
+  {
+    "name": "Foederati",
+    "unitType": "Sword",
+    "replaces": "Brute",
+    "uniqueTo": "Western Roman Empire",
+    "movement": 2,
+    "strength": 18,
+    "cost": 55,
+    "requiredTech": "Currency",
+    "obsoleteTech": "Civil Service",
+    "promotions": [
+      "Woodsman"
+    ],
+    "upgradesTo": "Auxilia Palatina",
+    "uniques": [
+      "[+75]% Strength <vs [Mounted] units>"
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Auxilia Palatina",
+    "unitType": "Sword",
+    "replaces": "Pikeman",
+    "uniqueTo": "Western Roman Empire",
+    "movement": 2,
+    "strength": 24,
+    "cost": 125,
+    "requiredTech": "Civil Service",
+    "requiredResource": "Iron",
+    "uniques": [
+      "[+125]% Strength <vs [Mounted] units>"
+    ],
+    "promotions": [
+      "Cover I"
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Limitanei",
+    "unitType": "Sword",
+    "replaces": "Spearman",
+    "uniqueTo": "Western Roman Empire",
+    "movement": 2,
+    "strength": 13,
+    "cost": 45,
+    "requiredTech": "Bronze Working",
+    "uniques": [
+      "Can build [Fort] improvements on tiles",
+      "[+50]% Strength <vs [Mounted] units>"
+    ],
+    "promotions": [
+      "Cover I"
+    ],
+    "upgradesTo": "Comitatenses",
+    "attackSound": "metalhit"
+  }
 ]

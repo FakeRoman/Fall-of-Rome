@@ -1,89 +1,103 @@
 
 game.png
-size: 2048, 512
+size: 2048, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 NationIcons/Western Roman Empire
   rotate: false
-  xy: 1248, 404
+  xy: 1044, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Auxilia Palatina
   rotate: false
-  xy: 935, 32
+  xy: 1564, 148
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Ballistarius
+  rotate: false
+  xy: 1044, 15
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Comitatenses
   rotate: false
-  xy: 1248, 251
+  xy: 1636, 148
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Exculcatores
   rotate: false
-  xy: 832, 7
+  xy: 1152, 123
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Foederati
   rotate: false
-  xy: 1248, 315
+  xy: 1255, 123
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Limitanei
   rotate: false
-  xy: 1356, 423
+  xy: 1358, 123
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Magister Militum
   rotate: false
-  xy: 1459, 439
+  xy: 1708, 139
   size: 64, 65
   orig: 64, 65
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/comes-italiae-notitia-dignitatum-western-roman-empire-vir-spectabilis-png-favpng-R7w8Uzjexx3gmE7T2At515r1b
+TileSets/AbsoluteUnits/Units/Sagittarii
   rotate: false
-  xy: 4, 4
-  size: 820, 500
-  orig: 820, 500
+  xy: 1461, 123
+  size: 95, 81
+  orig: 95, 81
   offset: 0, 0
   index: -1
 UnitIcons/Auxilia Palatina
   rotate: false
-  xy: 832, 304
+  xy: 4, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Comitatenses
   rotate: false
-  xy: 832, 96
+  xy: 212, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Exculcatores
   rotate: false
-  xy: 1040, 304
+  xy: 420, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Foederati
   rotate: false
-  xy: 1040, 96
+  xy: 628, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magister Militum
+  rotate: false
+  xy: 836, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
