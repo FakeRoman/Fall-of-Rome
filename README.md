@@ -1,2 +1,2 @@
 # Fall-of-Rome
-Extremely beta phase and reskined units from graphic mods
+Extremely underveloped and reskined units from in-game graphic mods
