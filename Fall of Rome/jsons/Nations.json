@@ -28,7 +28,7 @@
       "Agrippa",
       "Brutus"
     ],
-    "unitNames": [
+    "ComitatensesNames": [
       "Legio I Flavia Gallicana Constantia",
       "Legio II Britannica",
       "Legio III Flavia Salutis",
@@ -72,10 +72,10 @@
     "hateYes": [
       "And so our business is concluded...now leave before the Palace stenches like filth"
     ],
-    "uniqueName": "Remains of a great Empire",
+    "uniqueName": "Last Breath of an Empire",
     "uniques": [
       "When conquering an encampment, earn [15] Gold and recruit a Barbarian unit <with [70]% chance>",
-      "[-45]% Production when constructing [{Military} {Land}] units [in all cities]"
+      "[+10]% Production when constructing [{Military} {Land}] units [in all cities]"
       "Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)",
       "Unhappiness from number of Cities doubled",
       "[-50]% maintenance on road & railroads",

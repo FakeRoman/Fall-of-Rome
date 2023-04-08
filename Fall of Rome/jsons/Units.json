@@ -1,5 +1,42 @@
 [
   {
+    "name": "Limitanei",
+    "unitType": "Sword",
+    "replaces": "Warrior",
+    "uniqueTo": "Western Roman Empire",
+    "movement": 2,
+    "strength": 13,
+    "cost": 45,
+    "uniques": [
+      "Can build [Fort] improvements on tiles",
+      "[+50]% Strength <vs [Mounted] units>"
+    ],
+    "promotions": [
+      "Cover I"
+    ],
+    "upgradesTo": "Pseudo-Comitatenses",
+    "attackSound": "metalhit"
+  },
+    {
+    "name": "Pseudo-Comitatenses",
+    "unitType": "Sword",
+    "replaces": "Spearman",
+    "uniqueTo": "Western Roman Empire",
+    "movement": 2,
+    "strength": 16,
+    "cost": 65,
+    "requiredTech": "Bronze Working",
+    "obsoleteTech": "Iron Working"
+    "uniques": [
+      "Can build [Fort] improvements on tiles"
+    ],
+    "promotions": [
+      "Cover I"
+    ],
+    "upgradesTo": "Comitatenses",
+    "attackSound": "metalhit"
+  },
+  {
     "name": "Comitatenses",
     "unitType": "Sword",
     "uniqueTo": "Western Roman Empire",
@@ -21,22 +58,6 @@
     "attackSound": "metalhit"
   },
   {
-    "name": "Ballistarius",
-    "unitType": "Archery",
-    "replaces": "Crossbowman",
-    "uniqueTo": "Western Roman Empire",
-    "movement": 3,
-    "strength": 15,
-    "rangedStrength": 22,
-    "cost": 55,
-    "requiredTech": "Machinery",
-    "upgradesTo": "Rifleman",
-    "uniques": [
-      "May withdraw before melee ([45]%)"
-    ],
-    "attackSound": "arrow"
-  },
-  {
     "name": "Exculcatores",
     "unitType": "Archery",
     "replaces": "Archer",
@@ -46,7 +67,7 @@
     "rangedStrength": 9,
     "cost": 40,
     "requiredTech": "Archery",
-    "upgradesTo": "Ballistarius",
+    "upgradesTo": "Sagittarii",
     "uniques": ["May withdraw before melee ([65]%)"],
     "attackSound": "arrow"
   },
@@ -69,6 +90,22 @@
     "attackSound": "arrow"
   },
   {
+    "name": "Ballistarius",
+    "unitType": "Archery",
+    "replaces": "Crossbowman",
+    "uniqueTo": "Western Roman Empire",
+    "movement": 3,
+    "strength": 15,
+    "rangedStrength": 22,
+    "cost": 55,
+    "requiredTech": "Machinery",
+    "upgradesTo": "Rifleman",
+    "uniques": [
+      "May withdraw before melee ([45]%)"
+    ],
+    "attackSound": "arrow"
+  },
+  {
     "name": "Exploratores",
     "unitType": "Mounted",
     "replaces": "Scout",
@@ -79,6 +116,24 @@
     "promotions": [
       "Ignore terrain cost",
       "Woodsman"
+    ],
+    "attackSound": "horse"
+  },
+  {
+    "name": "Equites Promotii",
+    "unitType": "Mounted",
+    "replaces": "Horseman",
+    "uniqueTo": "Western Roman Empire",
+    "movement": 5,
+    "strength": 15,
+    "cost": 90,
+    "requiredTech": "Horseback Riding",
+    "obsoleteTech": "Chivalry",
+    "upgradesTo": "Knight",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus",
+      "[-33]% Strength <vs cities> <when attacking>"
     ],
     "attackSound": "horse"
   },
@@ -95,7 +150,7 @@
     ],
     "uniques": [
       "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-      "[+40]% Strength bonus for [Military] units within [2] tiles",
+      "[+20]% Strength bonus for [Military] units within [3] tiles",
       "Can instantly construct a [Citadel] improvement <by consuming this unit>",
       "Can move after attacking",
       "Great Person - [War]",
@@ -139,25 +194,6 @@
     "promotions": [
       "Cover I"
     ],
-    "attackSound": "metalhit"
-  },
-  {
-    "name": "Limitanei",
-    "unitType": "Sword",
-    "replaces": "Spearman",
-    "uniqueTo": "Western Roman Empire",
-    "movement": 2,
-    "strength": 13,
-    "cost": 45,
-    "requiredTech": "Bronze Working",
-    "uniques": [
-      "Can build [Fort] improvements on tiles",
-      "[+50]% Strength <vs [Mounted] units>"
-    ],
-    "promotions": [
-      "Cover I"
-    ],
-    "upgradesTo": "Comitatenses",
     "attackSound": "metalhit"
   }
 ]
