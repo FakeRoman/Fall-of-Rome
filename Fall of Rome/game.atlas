@@ -1,153 +1,202 @@
 
 game.png
-size: 1024, 512
+size: 1024, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+NationIcons/Alemanni
+  rotate: false
+  xy: 628, 494
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Eastern Roman Empire
+  rotate: false
+  xy: 628, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Eranshahr
+  rotate: false
+  xy: 736, 494
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Kingdom of the Vandals and Alans
+  rotate: false
+  xy: 628, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Western Roman Empire
   rotate: false
-  xy: 836, 185
+  xy: 628, 170
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Auxilia Palatina
   rotate: false
-  xy: 944, 445
+  xy: 940, 954
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Ballistarius
   rotate: false
-  xy: 4, 4
+  xy: 524, 513
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Comitatenses
   rotate: false
-  xy: 501, 29
+  xy: 844, 449
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Equites Promotii
   rotate: false
-  xy: 416, 15
+  xy: 4, 4
   size: 77, 70
   orig: 77, 70
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Exculcatores
   rotate: false
-  xy: 836, 96
+  xy: 736, 297
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Foederati
   rotate: false
-  xy: 107, 4
+  xy: 736, 208
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Limitanei
   rotate: false
-  xy: 210, 4
+  xy: 628, 81
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Magister Militum
   rotate: false
-  xy: 944, 372
+  xy: 89, 9
   size: 64, 65
   orig: 64, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Pseudo-Comitatenses
   rotate: false
-  xy: 573, 29
+  xy: 940, 890
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Sagittarii
   rotate: false
-  xy: 313, 4
+  xy: 844, 513
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Schola Palatina
+  rotate: false
+  xy: 161, 11
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
 UnitIcons/Auxilia Palatina
   rotate: false
-  xy: 4, 301
+  xy: 4, 290
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Ballistarius
   rotate: false
-  xy: 4, 93
+  xy: 524, 810
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Comitatenses
   rotate: false
-  xy: 212, 301
+  xy: 4, 82
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Equites Promotii
   rotate: false
-  xy: 836, 401
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Exculcatores
-  rotate: false
-  xy: 212, 93
+  xy: 212, 290
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+UnitIcons/Exculcatores
+  rotate: false
+  xy: 524, 602
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Exploratores
+  rotate: false
+  xy: 4, 498
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
 UnitIcons/Foederati
   rotate: false
-  xy: 420, 301
+  xy: 732, 810
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Limitanei
   rotate: false
-  xy: 420, 93
+  xy: 212, 82
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Magister Militum
   rotate: false
-  xy: 628, 301
+  xy: 732, 602
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Pseudo-Comitatenses
   rotate: false
-  xy: 628, 93
+  xy: 420, 290
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Sagittarii
   rotate: false
-  xy: 836, 293
+  xy: 736, 386
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Schola Palatina
+  rotate: false
+  xy: 420, 82
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1

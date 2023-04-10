@@ -4,6 +4,7 @@
     "unitType": "Sword",
     "replaces": "Warrior",
     "uniqueTo": "Western Roman Empire",
+    "uniqueTo": "Eastern Roman Empire",
     "movement": 2,
     "strength": 13,
     "cost": 45,
@@ -22,11 +23,11 @@
     "unitType": "Sword",
     "replaces": "Spearman",
     "uniqueTo": "Western Roman Empire",
+    "uniqueTo": "Eastern Roman Empire",
     "movement": 2,
     "strength": 16,
     "cost": 65,
     "requiredTech": "Bronze Working",
-    "obsoleteTech": "Iron Working"
     "uniques": [
       "Can build [Fort] improvements on tiles"
     ],
@@ -40,6 +41,7 @@
     "name": "Comitatenses",
     "unitType": "Sword",
     "uniqueTo": "Western Roman Empire",
+    "uniqueTo": "Eastern Roman Empire",
     "replaces": "Swordsman",
     "movement": 3,
     "strength": 22,
@@ -76,6 +78,7 @@
     "unitType": "Archery",
     "replaces": "Composite Bowman",
     "uniqueTo": "Western Roman Empire",
+    "uniqueTo": "Eastern Roman Empire",
     "movement": 3,
     "strength": 12,
     "rangedStrength": 14,
@@ -94,6 +97,7 @@
     "unitType": "Archery",
     "replaces": "Crossbowman",
     "uniqueTo": "Western Roman Empire",
+    "uniqueTo": "Eastern Roman Empire",
     "movement": 3,
     "strength": 15,
     "rangedStrength": 22,
@@ -107,10 +111,10 @@
   },
   {
     "name": "Exploratores",
-    "unitType": "Mounted",
+    "unitType": "Scout",
     "replaces": "Scout",
-    "uniqueTo": "Western Roman Empire",
-    "movement": 4,
+    "uniqueTo": "Western Roman Empire, Eastern Roman Empire",
+    "movement": 5,
     "strength": 9,
     "cost": 70,
     "promotions": [
@@ -124,12 +128,33 @@
     "unitType": "Mounted",
     "replaces": "Horseman",
     "uniqueTo": "Western Roman Empire",
+    "uniqueTo": "Eastern Roman Empire",
     "movement": 5,
     "strength": 15,
     "cost": 90,
     "requiredTech": "Horseback Riding",
-    "obsoleteTech": "Chivalry",
-    "upgradesTo": "Knight",
+    "requiredResource": "Horses",
+    "upgradesTo": "Schola Palatina",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus",
+      "[-33]% Strength <vs cities> <when attacking>"
+    ],
+    "attackSound": "horse"
+  },
+    {
+    "name": "Schola Palatina",
+    "unitType": "Mounted",
+    "replaces": "Knight",
+    "uniqueTo": "Western Roman Empire",
+    "uniqueTo": "Eastern Roman Empire",
+    "movement": 3,
+    "strength": 25,
+    "cost": 145,
+    "requiredTech": "Chivalry",
+    "requiredResource": "Horses",
+	"obsoleteTech": "Military Science",
+	"upgradesTo": "Cavalry",
     "uniques": [
       "Can move after attacking",
       "No defensive terrain bonus",
@@ -142,6 +167,7 @@
     "unitType": "Mounted",
     "replaces": "Great General",
     "uniqueTo": "Western Roman Empire",
+    "uniqueTo": "Eastern Roman Empire",
     "movement": 3,
     "strength": 20,
     "promotions": [
@@ -149,7 +175,6 @@
       "Woodsman"
     ],
     "uniques": [
-      "Empire enters a [8]-turn Golden Age <by consuming this unit>",
       "[+20]% Strength bonus for [Military] units within [3] tiles",
       "Can instantly construct a [Citadel] improvement <by consuming this unit>",
       "Can move after attacking",
@@ -164,11 +189,11 @@
     "unitType": "Sword",
     "replaces": "Brute",
     "uniqueTo": "Western Roman Empire",
+    "uniqueTo": "Eastern Roman Empire",
     "movement": 2,
     "strength": 18,
     "cost": 55,
     "requiredTech": "Currency",
-    "obsoleteTech": "Civil Service",
     "promotions": [
       "Woodsman"
     ],
@@ -183,6 +208,7 @@
     "unitType": "Sword",
     "replaces": "Pikeman",
     "uniqueTo": "Western Roman Empire",
+    "uniqueTo": "Eastern Roman Empire",
     "movement": 2,
     "strength": 24,
     "cost": 125,

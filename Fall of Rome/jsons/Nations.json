@@ -75,10 +75,9 @@
     "uniqueName": "Last Breath of an Empire",
     "uniques": [
       "When conquering an encampment, earn [15] Gold and recruit a Barbarian unit <with [70]% chance>",
-      "[+10]% Production when constructing [{Military} {Land}] units [in all cities]"
-      "Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)",
+      "[+10]% Production when constructing [{Military} {Land}] units [in all cities]",
       "Unhappiness from number of Cities doubled",
-      "[-50]% maintenance on road & railroads",
+      "[-50]% maintenance on road & railroads"
     ],
     "cities": [
       "Rome",
@@ -120,6 +119,431 @@
       "Curia",
       "Interrama",
       "Adria"
+    ]
+  },
+  {
+    "name": "Eastern Roman Empire",
+    "leaderName": "Leo the Tracian",
+    "style": "Mediterranean",
+    "adjective": [
+      "Roman"
+    ],
+    "outerColor": [
+      74,
+      70,
+      96
+    ],
+    "innerColor": [
+      255,
+      215,
+      0
+    ],
+    "spyNames": [
+      "Flavius",
+      "Regula",
+      "Servius",
+      "Lucia",
+      "Cornelius",
+      "Licina",
+      "Canus",
+      "Serpens",
+      "Agrippa",
+      "Brutus"
+    ],
+    "ComitatensesNames": [
+      "Legio I Flavia Gallicana Constantia",
+      "Legio II Britannica",
+      "Legio III Flavia Salutis",
+      "Legio IV Italica",
+      "Legio V Iovia",
+      "Legio VI Herculia",
+      "Legio XII Victrix",
+      "Legio VI Victrix",
+      "Legio VIII Augusta"
+    ],
+    "startBias": [
+      "Avoid [Tundra]",
+      "Avoid [Desert]"
+    ],
+    "preferredVictoryType": "Scientific",
+    "favoredReligion": "Christianity",
+    "startIntroPart1": "The Eastern Roman Empire rests upon a pile of gold and other riches, while the west is ridden of barbarians and decadence the East is booming in population and economy, this hasnt gone unnoticed by our neighbors specially the nomadic ones...",
+    "startIntroPart2": "",
+    "declaringWar": "My treasury contains little and my soldiers are getting impatient... (sigh) ...therefore you must die.",
+    "attacked": "So brave, yet so stupid! If only you had a brain similar to your courage.",
+    "defeated": "God have deprived Rome of his favour. We have been defeated.",
+    "introduction": "I greet you. I am Leo, Imperator of Eastern Rome. If you are a friend of Rome, you are welcome.",
+    "neutralHello": "Hail.",
+    "hateHello": "What do you want?",
+    "tradeRequest": "I offer this, for your consideration.",
+    "neutralLetsHearIt": "Yeah, I hear your offer.",
+    "hateLetsHearIt": [
+      "Diplomatic Guests are always welcomed...even if they are a Barbaric Civilization"
+    ],
+    "neutralNo": [
+      "No no.",
+      "Thank you, but no."
+    ],
+    "neutralYes": [
+      "Thank you very much, goodbye.",
+      "This is what I wanted!..."
+    ],
+    "hateNo": [
+      "Neither Rome nor the Romans will take this offer in consideration"
+    ],
+    "hateYes": [
+      "And so our business is concluded...now leave before the Palace stenches like filth"
+    ],
+    "uniqueName": "Eastern Riches",
+    "uniques": [
+      "Quantity of strategic resources produced by the empire +[100]%",
+      "[+4] Happiness from each type of luxury resource",
+      "[+4 Gold, +2 Happiness] per [2] population [in capital]",
+      "[-65]% maintenance on road & railroads"
+    ],
+    "cities": [
+      "Constantinopolis",
+      "Adrianople",
+      "Nicaea",
+      "Antioch",
+      "Varna",
+      "Ohrid",
+      "Nicomedia",
+      "Trebizond",
+      "Cherson",
+      "Sardica",
+      "Ani",
+      "Dyrrachium",
+      "Edessa",
+      "Chalcedon",
+      "Naissus",
+      "Bari",
+      "Iconium",
+      "Prilep",
+      "Samosata",
+      "Kars",
+      "Nicopolis",
+      "Theodosiopolis",
+      "Tyana",
+      "Gaza",
+      "Kerkyra",
+      "Phoenice",
+      "Selymbria",
+      "Sillyon",
+      "Chrysopolis",
+      "Vodena",
+      "Caesarea",
+      "Traianoupoli",
+      "Constantia",
+      "Athens",
+      "Patra",
+      "Korinthos"
+    ]
+  },
+    {
+    "name": "Eranshahr",
+    "leaderName": "Hormizd III",
+    "adjective": [
+      "Persian"
+    ],
+    "outerColor": [
+      135,
+      0,
+      126
+    ],
+    "innerColor": [
+      255,
+      251,
+      49
+    ],
+    "spyNames": [
+      "Flavius",
+      "Regula",
+      "Servius",
+      "Lucia",
+      "Cornelius",
+      "Licina",
+      "Canus",
+      "Serpens",
+      "Agrippa",
+      "Brutus"
+    ],
+    "ComitatensesNames": [
+      "Legio I Flavia Gallicana Constantia",
+      "Legio II Britannica",
+      "Legio III Flavia Salutis",
+      "Legio IV Italica",
+      "Legio V Iovia",
+      "Legio VI Herculia",
+      "Legio XII Victrix",
+      "Legio VI Victrix",
+      "Legio VIII Augusta"
+    ],
+    "startBias": [
+      "Avoid [Tundra]"
+    ],
+    "preferredVictoryType": "Scientific",
+    "favoredReligion": "Zoroastrianism",
+    "startIntroPart1": "A Large eastern empire that matches the likes of Rome, Best archers in the world, masters of the horse and excellent administrative skill that keeps public order in check but also helps the empire field a large levy army under its banner",
+    "startIntroPart2": "The Eastern nemesis of Rome and by far the most dangerous of them all, most of the conflicts with Rome were continuous with barely one decade of peace, the most devasting war came in 602 AD, after Khosrow the II declares war on a weakened Eastern Rome after some initial success defeat came for the Sassanids like a hammer, years of war caused exhaustion, continuous defeats and civil strife followed the deposition of Khosrow as Shahanshah by his son Kavad, he died 2 months later and a civil war began further more devasting a weakened Sassanid empire, in 651 AD Yazdegerd III was assasinated and so the Sassanid Empire met his end to the Arab-Muslim armies",
+    "declaringWar": "Your continue existence is an embarrassment to all leaders everywhere! You must be destroyed!",
+    "attacked": "Curse you! You are beneath me, son of a donkey driver! I will crush you!",
+    "defeated": "You mongrel! Cursed be you! The world will long lament your heinous crime!",
+    "introduction": "Peace be on you! I am Hormizd,Third of his name and outstanding king of kings of great Persia... but I suppose you knew that",
+    "neutralHello": "Good day to you!",
+    "hateHello": "Ahh... you...",
+    "tradeRequest": "In my endless magnanimity, I am making you this offer. You agree, of course?",
+    "neutralLetsHearIt": "Yeah, I hear your offer.",
+    "hateLetsHearIt": [
+      "Diplomatic Guests are always welcomed...even if they are a Barbaric Civilization"
+    ],
+    "neutralNo": [
+      "No no.",
+      "Thank you, but no."
+    ],
+    "neutralYes": [
+      "Thank you very much, goodbye.",
+      "This is what I wanted!..."
+    ],
+    "hateNo": [
+      "Not even a Parthian would consider this offer, WHAT makes YOU think we will!?"
+    ],
+    "hateYes": [
+      "Guess... this is the best deal we will get... we accept it, unwillingly"
+    ],
+    "uniqueName": "Administrative Masters",
+    "uniques": [
+      "[Double quantity of [Horses] produced]",
+      "[-25]% maintenance cost for buildings [in all cities]",
+      "[+4 Happiness] [in all cities]",
+      "[-35]% maintenance costs <for [All] units>"
+    ],
+    "cities": [
+"Persepolis",
+      "Parsagadae",
+      "Susa",
+      "Ecbatana",
+      "Tarsus",
+      "Gordium",
+      "Bactra",
+      "Sardis",
+      "Ergili",
+      "Dariushkabir",
+      "Ghulaman",
+      "Zohak",
+      "Istakhr",
+      "Jinjan",
+      "Borazjan",
+      "Herat",
+      "Dakyanus",
+      "Bampur",
+      "Turengtepe",
+      "Rey",
+      "Shiraz",
+      "Thuspa",
+      "Hasanlu",
+      "Gabae",
+      "Merv",
+      "Behistun",
+      "Kandahar",
+      "Altintepe",
+      "Bunyan",
+      "Charsadda",
+      "Uratyube",
+      "Dura Europos",
+      "Aleppo",
+      "Qatna",
+      "Kabul",
+      "Capisa",
+      "Kyreskhata",
+      "Marakanda",
+      "Peshawar",
+      "Van",
+      "Pteira",
+      "Arshada",
+      "Artakaona",
+      "Aspabota",
+      "Autiyara",
+      "Bagastana",
+      "Baxtri",
+      "Darmasa",
+      "Daphnai",
+      "Drapsaka",
+      "Eion",
+      "Gandutava",
+      "Gaugamela",
+      "Harmozeia",
+      "Ekatompylos",
+      "Izata",
+      "Kampada",
+      "Kapisa",
+      "Karmana",
+      "Kounaxa",
+      "Kuganaka",
+      "Nautaka",
+      "Paishiyauvada",
+      "Patigrbana",
+      "Phrada"
+    ]
+  },
+  {
+    "name": "Alemanni",
+    "leaderName": "Rex Gibuld",
+    "adjective": [
+      "Alaman"
+    ],
+    "outerColor": [
+      0,
+      0,
+      0
+    ],
+    "innerColor": [
+      127,
+      127,
+      127
+    ],
+    "spyNames": [
+      "Flavius",
+      "Regula",
+      "Servius",
+      "Lucia",
+      "Cornelius",
+      "Licina",
+      "Canus",
+      "Serpens",
+      "Agrippa",
+      "Brutus"
+    ],
+    "startBias": [
+      "Avoid [Tundra]",
+      "Avoid [Desert]"
+    ],
+    "preferredVictoryType": "Scientific",
+    "favoredReligion": "Christianity",
+    "startIntroPart1": "A confederation of warlike tribes, the Alamanii were one of the most powerful tribes across the Rhine Rome had faced through centuries before his fall, they were conquered by the Franks in 496 AD",
+    "startIntroPart2": "Although there is a massive technologic gap between us and the Romans the fierceness of our warriors will overcome anything they face on the battlefield",
+    "declaringWar": "WAR, WAR is the call of men, and the gods shall lead us to victory against you!",
+    "attacked": "We shall feast upon the ashes of your cities after we sack them and raze them to the ground",
+    "defeated": "Woden has abandoned us, the skill of our warriors outmatched by trickery, may Donar struck your empire back harder, for now we shall mourn...",
+    "introduction": "Welcome, I am Gibuld, Chieftain of the mighty Alamans",
+    "neutralHello": "What now?",
+    "hateHello": "So, out with it!",
+    "tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
+    "neutralLetsHearIt": "Yeah, I hear your offer.",
+    "hateLetsHearIt": [
+      "Spirits of the afterlife spare my arse, for what i hear what my enemy has to say"
+    ],
+    "neutralNo": [
+      "No no.",
+      "Thank you, but no."
+    ],
+    "neutralYes": [
+      "Thank you very much, goodbye.",
+      "This is what I wanted!..."
+    ],
+    "hateNo": [
+      "This deal is even worse than loke tricks, we reject your worthless offer"
+    ],
+    "hateYes": [
+      "May the gods forgive me for accepting such offer"
+    ],
+    "uniqueName": "Nemesis of Rome",
+    "uniques": [
+      "[+50]% Strength <for [Military] units>",
+      "[+25]% Strength <for [Wounded] units>",
+      "[+50]% Strength for cities <when defending>",
+      "[+40]% Production when constructing [{Military} {Land}] units [in all cities]",
+      "No movement cost to pillage <for [Military] units>",
+      "[15] units cost no maintenance"
+    ],
+    "cities": [
+      "Augusta Vindelicorum",
+      "Argentoratum",
+      "Vindonissa",
+      "Constantia",
+      "Brigantium"
+    ]
+  },
+  {  
+    "name": "Kingdom of the Vandals and Alans",
+    "leaderName": "Gaiseric",
+    "adjective": [
+      "Vandals"
+    ],
+    "preferredVictoryType": "Domination",
+    "startIntroPart1": "An Alliance of a Germanic tribe and Caucasian nomads seeking a new home after being displaced by the Huns and then the Goths drove them out from Spain, under instances of Bonifacius the Vandals crossed Gibraltar arriving to Africa, betraying the governor and establishing a kingdom there, the Vandals caused so much damage that a new word had been created thanks to them ",
+    "Vandalism": ", for they had caused so much damage when they sacked Rome in 455 AD, Vandals shared almost the same fate as the Carthaginians of old after a successful campaign by Flavius Belisarius in 533 to 534 AD Vandals were assimilated into north Africa, those who could fled to Visigothic Hispania and some were shipped to Constantinople and dissapeared a distinct ethnic",
+    "startIntroPart2": "The Vandals control the bread basket of the Western Roman Empire so food wont be a problem along with other luxuries, thanks to their Alani allies they can field one of the best cavalry units in the world, however there are rumors that Imperator Julius Majorianus is building a massive fleet in order to retake North Africa, we must focus our efforts to reinforce our navy before theirs become unbeatable",
+    "declaringWar": "WAR, WAR is the call of men, and the gods shall lead us to victory against you!",
+    "attacked": "We shall feast upon the ashes of your cities after we sack them and raze them to the ground",
+    "defeated": "Woden has abandoned us, the skill of our warriors outmatched by trickery, may Donar struck your empire back harder, for now we shall mourn...",
+    "introduction": "Welcome, I am Gibuld, Chieftain of the mighty Alamans",
+    "neutralHello": "What now?",
+    "hateHello": "So, out with it!",
+    "tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
+    "outerColor": [
+      179,
+      178,
+      184
+    ],
+    "innerColor": [
+      37,
+      43,
+      33
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Holds the Bread basket of Rome",
+    "uniques": [
+      "[+6 Food] from every [Pasture]",
+      "[+8 Food] from every [Wheat]",
+      "[+3 Gold] from every [Harbor]",
+      "[+3 Gold] from every [Seaport]",
+      "[+5] Happiness from each type of luxury resource"
+    ],
+    "cities": [
+      "Carthage",
+      "Utique",
+      "Hippo Regius",
+      "Gades",
+      "Saguntum",
+      "Carthago Nova",
+      "Panormus",
+      "Lilybaeum",
+      "Hadrumetum",
+      "Zama Regia",
+      "Karalis",
+      "Malaca",
+      "Leptis Magna",
+      "Hippo Diarrhytus",
+      "Motya",
+      "Sulci",
+      "Leptis Parva",
+      "Tharros",
+      "Soluntum",
+      "Lixus",
+      "Oea",
+      "Theveste",
+      "Ibossim",
+      "Thapsus",
+      "Aleria",
+      "Tingis",
+      "Abyla",
+      "Sabratha",
+      "Rusadir",
+      "Baecula",
+      "Saldae"
+    ],
+    "spyNames": [
+      "Johann",
+      "Marlene",
+      "Wilhelm",
+      "Eva",
+      "Heinz",
+      "Horst",
+      "Carl",
+      "Viper",
+      "Albrecht",
+      "Anton"
     ]
   }
 ]
